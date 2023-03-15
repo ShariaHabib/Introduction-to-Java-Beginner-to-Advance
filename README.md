@@ -11,15 +11,6 @@
 6. JIT stands for Just-In-Time. It is a technique that improves the performance of Java applications by compiling bytecodes (the intermediate representation of Java code) into native machine code at run-time. This way, the JVM (Java Virtual Machine) can execute the native code directly without interpreting it every time.
 
 7. Why java?
-    • Simple
-    • Secure
-    • Portable
-    • Object-oriented
-    • Robust
-    • Multithreaded
-    • Architecture-neutral
-    • Interpreted
-    • High performance
-    • Distributed
+    • Simple    • Secure    • Portable  • Object-oriented   • Robust    • Multithreaded     • Architecture-neutral      • Interpreted   • High performance  • Distributed
     • Dynamic
 
