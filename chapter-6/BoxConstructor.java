@@ -1,26 +1,33 @@
-public class BoxConstructor {
-    // Fields
-    private double height;
-    private double width;
-    private double depth;
+class BoxMain {
+    double width;
+    double height;
+    double depth;
 
-    // Constructor
-    public BoxConstructor(double height, double width, double depth) {
-        this.height = height;
-        this.width = width;
-        this.depth = depth;
+    BoxMain() {
+        System.out.println("Constructing Box");
+        width = 10;
+        height = 10;
+        depth = 10;
     }
 
-    // Methods
-    public double getVolume() {
-        return height * width * depth;
+    BoxMain(double w, double h, double d) {
+        width = w;
+        height = h;
+        depth = d;
     }
 
-    public static void main(String[] args) {
-
-        BoxConstructor myBox = new BoxConstructor(2.5, 3.0, 4.0);
-        double volume = myBox.getVolume();
-        System.out.println(volume);
+    void volume() {
+        System.out.print("Volume is ");
+        System.out.println(width * height * depth);
     }
 
+    double computeVolume() {
+        return width * height * depth;
+    }
+
+    void setDim(double w, double h, double d) {
+        width = w;
+        height = h;
+        depth = d;
+    }
 }

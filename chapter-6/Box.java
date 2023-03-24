@@ -1,16 +1,14 @@
 public class Box {
-    public double height;
-    public double width;
-    public double depth;
-
     public static void main(String[] args) {
+        BoxMain mybox = new BoxMain();
+        double vol;
 
-        Box myBox = new Box();
-        myBox.depth = 5.00;
-        myBox.height = 10.00;
-        myBox.width = 5.00;
+        mybox.width = 10;
+        mybox.height = 20;
+        mybox.depth = 15;
 
-        System.out.println("The area of the box is " + myBox.depth * myBox.height * myBox.width);
+        vol = mybox.width * mybox.height * mybox.depth;
+
+        System.out.println("Volume is " + vol);
     }
-
 }
